@@ -7,5 +7,5 @@ for i in range (1, 100001):
 print("+= Time: ", time.time() - start)
 
 start = time.time()
-result = "".join(str(i)for i in range(1, 100001,))
+result = "".join(str(i)for i in range(1, 100001))
 print ("Using join(): ", time.time() - start)
