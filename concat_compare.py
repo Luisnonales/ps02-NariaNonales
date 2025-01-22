@@ -8,4 +8,4 @@ print("+= Time: ", time.time() - start)
 
 start = time.time()
 result = "".join(str(i)for i in range(1, 100001,))
-print ("Using joint(): ", time.time() - start)
+print ("Using join(): ", time.time() - start)
